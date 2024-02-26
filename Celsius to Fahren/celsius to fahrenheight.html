@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cel to fahren</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div><h2>Cel To Fahren</h2></div>
+        
+        <div id="inputbox">
+            <input type="text" id="input" placeholder="Cel To Fahren">
+        </div>
+
+        <div class="button">
+            <button type="submit" onclick="convert()">Cel To Fahren</button>
+        </div>
+
+        <div id="result">
+           
+         </div>
+    
+    </div>
+ <script>
+
+     function convert(){
+        let celval=Number(document.getElementById("input").value)
+        let fahren=(celval*9/5)+32
+        let result=document.getElementById("result")
+        result.innerHTML=fahren+" "+"Fahren"
+     }
+ </script>
+</body>
+</html>

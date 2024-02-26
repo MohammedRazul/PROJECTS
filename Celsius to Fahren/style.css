@@ -1,0 +1,35 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(10, 193, 248);
+}
+h2{
+    color: rgb(243, 243, 245);
+    margin-top: -150px;
+}
+#wrapper{
+ width:500px;
+ height: 200px;
+ background-color: rgba(7, 7, 7, 0.904);
+ text-align: center;
+ padding-top: 20%;
+ font-size: 25px;
+ font-family:'Times New Roman', Times, serif;
+ letter-spacing: 0.2cm;
+ word-spacing: 0.5cm;
+ border-radius: 20px;
+ border-inline-color: solid black;
+ border: 2px solid black;
+ margin-left: 30%;
+ margin-top: 80px;
+ 
+}
+
+
+.button{
+    padding-top: 40px;
+}
+#result{
+   padding-top: 200px;
+   font-weight: 1000;
+   font-size: 50PX;
+}
