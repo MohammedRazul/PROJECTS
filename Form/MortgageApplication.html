@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form action="  " method="post">
+    <div class="container">
+
+        <div class="header">
+            <img src="logo 2.png">
+        </div>
+
+        <div class="main">
+            
+            <h2 id="title">Mortgage Application</h2>
+            <div id="main1">
+                <label><b>Purpose of Mortgage or Loan</b></label><br>
+             <select id="select1" name="purpose of mortgage">
+                 <option>Home Loan</option>
+                 <option>Home Mortgage</option>
+                 <option>Refinance</option>
+                 <option>Home Mortgage Refinance</option>
+                 <option>Dept Consolidation Loan</option>
+                 <option>Second Mortgage</option>
+                 <option>Home Equity Loan</option>
+                 <option>Home Improvement Loan</option>
+                 <option>Home Mortgage Bad Credit</option>
+             </select><br><br>
+             <label id="loan"><b>Loan Amount</b><br></label>
+             <span>$</span>
+             <input type="text" id="dollar" name="dollar" required>
+             <b>.</b> <input type="text" id="cents" name="cents" required><br>
+             <small>
+                 <span id="doll">Dollars</span> 
+                 <span id="cent">Cents</span>
+             </small><br><br>
+
+             <label name="property type"><b>Type of Property</b><br></label>
+             <select>
+                 <option>House</option>
+                 <option>Condo</option>
+                 <option>Land</option>
+             </select><br><br>
+          
+             <label name="estimate price"><b>Estimated Price or Value of Property</b></label><br>
+             <span>$</span>
+             <input type="text" id="dollar" name="dollar" required> <b>.</b> 
+             <input type="text" id="cents" name="cent" required><br>
+             <small>
+                 <span id="doll">Dollars</span> 
+                 <span id="cent">Cents</span>
+             </small><br><br>
+
+             <label name="location"><b>Location of property</b></label><br>
+             <input type="text" id="st" name="st_ad"><br>
+             <small>
+                 <span id="street">Street Address</span>
+             </small><br>
+ 
+             <input type="text" id="ad2" name="address2"><br>
+             <small>
+                 <span id="addr">Address Line 2</span>
+             </small><br>
+
+             <input type="text" id="city" name="city">
+             <input type="text" id="state" name="state"><br>
+             <small>
+                 <span id="cit">City</span> 
+                 <span id="stat">State / Province / Region</span>
+             </small><br>
+ 
+             <input type="text" id="postal" name="postal">
+             <select id="coun" name="country">
+                 <option></option>
+                 <option>New Zealand</option>
+                 <option>India</option>
+                 <option>Brazil</option>
+                 <option>France</option>
+                 <option>Canada</option>
+             </select><br>
+             <small>
+                 <span id="post">Postal / Zip Code</span> 
+                 <span id="countr">Country</span>
+             </small><br><br>
+ 
+             <label><b>Down Payment Percentage</b></label><br>
+             <select name="down payment">
+                 <option></option>
+                 <option>Not Applicable</option>
+                 <option>0% - 5%</option>
+                 <option>6% - 10%</option>
+             </select><br><br>
+ 
+             <label name="current mortgage"><b>Current Mortgage Company</b></label><br>
+             <select name="current mortgage">
+                 <option></option>
+                 <option>Company One</option>
+                 <option>Company Two</option>
+             </select><br><br>
+ 
+             <label name="refferal"><b>Would you like a Reffferal to a Real Estate Agent?</b></label><br>
+             <select name="refferal">
+                 <option></option>
+                 <option>Yes, I'm Buying a Home</option>
+                 <option>Yes, I'm Selling and Buying a Home</option>
+                 <option>Yes, I'm Selling</option>
+                 <option>No</option>
+             </select><br><br>
+ 
+             <label name="age"><b>Age</b></label><br>
+             <input type="text" id="age"><br><br>
+ 
+             <label><b>Occupation</b></label><br>
+             <input type="text" id="occu" name="Occupation"><br><br>
+ 
+             <label><b>How long have you been at your current job?</b></label><br>
+             <select name="current job">
+                 <option>First Choice</option>
+                 <option>Second Choice</option>
+                 <option>Third Choice</option>
+             </select><br><br>
+ 
+             <label name="income"><b>Household Income</b></label><br>
+             <span>$</span>
+             <input type="text" id="dollar" name="dollar"> <b>.</b>
+             <input type="text" id="cents" name="cent"><br>
+             <small>
+                 <span id="doll">Dollars</span> 
+                 <span id="cent">Cents</span>
+             </small><br><br>
+ 
+             <label name="credit rating"><b>Please describe your credit rating.</b></label><br>
+             <select id="credit" name="credit rating">
+                 <option>First Choice</option>
+                 <option>Second Choice</option>
+                 <option>Third Choice</option>
+             </select><br>
+             <div id="dotted">
+             </div>
+ 
+             <label name="contact info" id="contact_info">Contact Information</label><br>
+ 
+             <label name="name"><b>Name</b></label><br>
+             <input type="text" id="ntitle" name="title"> 
+             <input type="text" id="fname" name="fname">
+             <input type="text" id="lname" name="lname"> 
+             <input type="text" id="suffix" name="suffix"><br>
+             <span id="tit">Title</span>
+             <span id="first">First</span>
+             <span id="last">Last</span>
+             <span id="suffix1">Suffix</span><br><br>
+ 
+             <label name="address"><b>Address</b></label><br>
+             <input type="text" id="st" name="st_ad"><br>
+             <small>
+                 <span id="street">Street Address</span>
+             </small><br>
+ 
+             <input type="text" id="ad2" name="address2"><br>
+             <small>
+                 <span id="addr">Address Line 2</span>
+             </small><br>
+ 
+             <input type="text" id="city" name="city">
+             <input type="text" id="state" name="state"><br>
+             <small>
+                 <span id="cit">City</span> 
+                 <span id="stat">State / Province / Region</span>
+             </small><br>
+ 
+             <input type="text" id="postal" name="postal">
+             <select id="coun" name="country">
+                 <option></option>
+                 <option>New Zealand</option>
+                 <option>India</option>
+                 <option>Brazil</option>
+                 <option>France</option>
+                 <option>Canada</option>
+             </select><br>
+             <small>
+                 <span id="post">Postal / Zip Code</span> 
+                 <span id="countr">Country</span>
+             </small><br><br>
+
+             <label name="primary num"><b>Primary Phone</b></label><br>
+             <input type="text" id="pp1" name="mob_no" maxlength="3"> -  
+             <input type="text" id="pp2" name="mob_no" maxlength="3"> -  
+             <input type="text" id="pp3" name="mob_no" maxlength="4"><br>
+             <span id="p1">###</span>
+             <span id="p2">###</span> 
+             <span id="p3">####</span><br><br>
+ 
+             <label name="alt num"><b>Alternate Phone</b></label><br>
+             <input type="text" id="pp1" name="Amob_no" maxlength="3"> -  
+             <input type="text" id="pp2" name="Amob_no" maxlength="3"> -  
+             <input type="text" id="pp3" name="Amob_no" maxlength="4"><br>
+             <span id="p1">###</span>
+             <span id="p2">###</span> 
+             <span id="p3">####</span><br><br>
+ 
+             <label name="email"><b>Email Address</b></label><br>
+             <input type="email" id="email" name="email" required><br><br>
+ 
+             <button type="submit" id=button>Submit</button><br><br><br>
+             <p id="foot">This site is protected by reCAPTCHA Enterprise and the Google <a id="privacy" href="https://policies.google.com/privacy">Privacy Policy</a> and <a id="privacy" href="https://policies.google.com/terms"> Terms of Service</a> apply.</p>    
+            </div>
+        </div>
+    </div>
+ </form> 
+  <div class="Footer">
+     <p id="powered"><small>Powered By</small></p>
+     <img id="logo2" src="logo1.png">
+  </div>
+  <p id="last1">See how easy it is to <a href="https://www.wufoo.com/form-builder/?utm_source=form-footer&utm_medium=cta-link" target="_blank">create a form</a></p>      
+</body>
+</html>
