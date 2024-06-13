@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EmployeeForm.css">
+    <title>Employee Review Form</title>
+    <link rel="icon" type="image/x-icon" href="logo1.png">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <div class="header">
+                <h3>Employee Review Form</h3>
+                <p><small>Please fill out this online Employee Review Form for each employee in your<br> department  ,so that the company can create the annual performance reports.</small></p><hr>
+            </div><br>
+            <div class="main">
+                <div class="emp_name">
+                    <div class="name">
+                        <label name="emp">Employee <br>name<span>*</span></label>
+                    </div>
+                    <div class="Fnamee">
+                        <input type="text" id="Fname" name="F_name" placeholder="First" required>
+                    </div>
+                    <div class="Lnamee">             
+                        <input type="text" id="Lname" name="L_name" placeholder="Last" required><br />
+                    </div>
+               </div><br>
+             
+                <div class="dept">
+                    <div class="emp_dep">
+                       <label name="dep">Employee <br>Deparment</label>
+                    </div>
+                    <div class="text_dept">  
+                       <input type="text" id="depart" name="dept" required>
+                   </div>
+                </div><br>
+
+                <div class="review">
+                    <div class="reviews">
+                       <label name="review">Perfoemance <br>Review <br>Submitted by<span>*</span></label>
+                    </div>   
+                    <div class="Fnamee">
+                        <input type="text" id="Fnames" name="F_name" placeholder="First" required>
+                    </div>
+                    <div class="Lnamee">             
+                        <input type="text" id="Lnames" name="L_name" placeholder="Last" required><br />
+                    </div>
+                </div><br>
+
+                <div class="date">
+                    <div class="sub">
+                      <label name="sub_date">Date of<br>Submission</label>
+                    </div>
+                    <div class="dates"></div>
+                      <input type="date" id="s-date" name="S_date" required>
+                    </div>
+                </div><br>
+                
+                <div class="satisfy">
+                  <div class="veryS">
+                      <label name="review1">Very<br></label>
+                      <label name="statiss">Satisfied</label>
+                  </div>
+                  <div class="satis">
+                     <label name="review2" id="statis">Satisfied</label>
+                   </div>
+                   <div class="neutral">
+                     <label name="review3">Neutral</label>
+                   </div>
+                   <div class="unsatis">
+                     <label name="review4">Unsatisfied</label>
+                   </div>
+                   <div class="veryU">
+                     <label name="review5">Very<br></label>
+                     <label name="unstatisfy" id="unst">Unsatisfied</label>
+                   </div>
+                </div><br>
+
+                <div class="radio">
+                   <div class="radioo">
+                      <p>How<br>Satisfied are<br> you with the<br> employee's<br> general<br> performance</p>
+                   </div>  
+                   <div class="butns">
+                      <div class="btn1" >
+                         <input type="radio" name="performance_of_emp" required>
+                      </div>  
+                      <div class="btn2">
+                         <input type="radio" name="performance_of_emp" required>
+                      </div>  
+                      <div class="btn3">
+                         <input type="radio" name="performance_of_emp" required>
+                      </div>  
+                      <div class="btn4">
+                         <input type="radio" name="performance_of_emp" required>
+                      </div>  
+                      <div class="btn5">
+                         <input type="radio" name="performance_of_emp" required>
+                      </div>  
+                        
+                    </div>
+                </div><br>
+                <div class="sign">
+                    <label id="signature" name="signature">Signature</label><br>
+                    <div class="textareaContainer">
+                        <div class="textarea">
+                           <textarea class="notes" id="testa" required></textarea>
+                        </div>   
+                        <div class="horiz">
+                            <hr>
+                        </div>
+                    </div>
+               </div><br>
+                <div class="button1">
+                   <button type="submit" id="send" name="send">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
