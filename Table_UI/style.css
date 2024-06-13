@@ -1,0 +1,148 @@
+body{
+    background-color: black;
+    height: 80px;
+}
+
+.container{
+    background-color: white;
+    width: 95.5%;
+    margin-left: 1%;
+}
+#head{
+    background-color: rgba(12, 115, 184, 0.89);
+    height: 30px;
+    color: white;
+}
+#title{
+    margin-left: 4%;
+    width: 100%; 
+}
+#dotted_line{
+    border-bottom: 2px dotted black;
+}
+.containers{
+    margin-top: 1%;
+    display: flex;
+    margin-bottom: 4%;
+    height: 68px;
+    font-size: smaller;
+}
+#entriesBox{
+    background-color: rgb(238, 237, 237);
+    margin-left: 2%;
+    width: 11%;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 2px 2px rgb(184, 184, 184);
+    cursor: pointer;
+}
+#num{
+    color:  rgba(12, 115, 184, 0.89);
+    font-size: 30px;
+}
+#viewsBox{
+    background-color: rgb(238, 237, 237);
+    margin-left: 2%;
+    width: 11%;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 2px 2px rgb(184, 184, 184);
+    cursor: pointer;
+}
+#bounceRate{
+    background-color: rgb(238, 237, 237);
+    margin-left: 2%;
+    width: 11%;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 2px 2px rgb(184, 184, 184);
+    cursor: pointer;
+}
+.plus{
+    margin-left: 55%;
+    color: white;
+    background-color: green;
+    font-size: large;
+}
+.tbh{
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 23px;
+    color: yellow;
+    padding-top: 0.5%;
+    font-size: smaller;
+}
+#tb{
+    margin-right: 30%;
+    margin-left: 2%;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 5%;
+    width: 90%;
+    height: 40px;
+    border: 1px solid black;
+    font-size: smaller;
+}
+th{
+    padding-right: 0.5%;
+    background-color: rgb(97, 95, 95);
+    color: white;
+    font-weight: 100;
+}
+#email{
+    padding-right: 1.8%;
+}
+#date{
+    padding-right: 19%;
+}
+#message{
+    padding-left: 6%;
+}
+.msg{
+    padding-left: 8.7%;
+}
+a{
+    padding-left: 38%;
+}
+b{
+    padding-left: 20%;
+}
+tr:nth-child(even){
+    background-color: rgb(204, 205, 206);
+}
+#last{
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: yellow;
+    height: 20px;
+    cursor: pointer;
+    padding-top: 0.5%;
+    font-size: smaller;
+}
+#tbl{
+    margin-left: 35.5%;
+}
+.footer{
+    margin-top: 0.8%;
+    font-size: smaller;
+    text-align: center;
+    padding-bottom: 2%;
+}
+#ex{
+    margin-right: 12%;
+}
+#exx{
+    margin-left: 8%;
+}
+button{
+    margin-top: 1%;
+    margin-left: 43%;
+    height: 23px;
+    border-radius: 20px;
+    color: rgb(90, 89, 89);
+    cursor: pointer;
+    font-size: 10px;
+}
